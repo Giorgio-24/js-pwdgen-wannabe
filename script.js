@@ -20,6 +20,10 @@ var userPassword = document.getElementById('user-password');
 userPassword.innerHTML = message + firstName + lastName + favouriteColor + '21';
 
 
+var message = 'Benvenuto '
+var userPassword = document.getElementById('welcome');
+
+userPassword.innerHTML = message + firstName;
 
 
 
